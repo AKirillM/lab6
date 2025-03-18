@@ -48,7 +48,7 @@ public class FlatFigure {
             }
         }
         else if (al==90 && bet==90 && a==c && b==d) { s=a*b; }
-             else { s=FFHelp.parallelogramArea(a, b, al); }
+             else { s=FFHelp.parallelArea(a, b, al); }
             
         return s;
     }

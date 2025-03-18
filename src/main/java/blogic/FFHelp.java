@@ -6,7 +6,7 @@ public class FFHelp {
         return Math.sqrt(p *(p-a) * (p-b) * (p-c));
     }
 
-    public static double parallelogramArea(double a, double b, int angle){
-        return a*b*Math.sin(angle * Math.PI / 100 );
+    public static double parallelArea(double a, double b, int angle){
+        return a*b*Math.sin(angle * Math.PI / 180 );
     }
 }
